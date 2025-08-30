@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index page</title>
+    <!-- <link rel="stylesheet" href="gate.css"> -->
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    /* background-color: rgb(0, 0, 33); */
+}
+
+.wel{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.content{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.sections{
+    display: flex;
+    justify-content: space-around;
+}
+.sec{
+    margin-top: 170px;
+}
+.sec-box{
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0,0,0.3);
+    border-radius: 10px;
+    color: orange;
+}
+.sec-box:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img1{
+    height: 50px;
+    width: 50px;
+}
+.img2{
+    height: 50px;
+    width: 50px;
+}
+.img3{
+    height: 50px;
+    width: 50px;
+}
+.but{
+	margin-top:15px;
+   display: inline-block;
+   padding:5px 15px;
+   background-color:#007bff;
+   color:white;
+   text-decoration:none;
+   border-radius: 5px;
+ 
+}
+
+@media  (max-width:800px){
+    .content{
+    
+    
+    margin-left: 80px;
+    }
+    .sections{
+        flex-direction:column;
+        align-items: center;
+    }
+    .sec-box{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .sec{
+        margin-top: 100px;
+    }
+
+    }
+    </style>
+</head>
+<body>
+     <!-- rgb(0, 0, 33) -->
+   <div class="top"> 
+    <div class="wel">Welcome</div>
+    <span class="content">Seamless access : your college gate pass awaits log in now</span>
+</div>
+    <div class="sections">
+         <div class="sec">
+          <div class="sec-box"> 
+            <div ><img class="img1" src="user.svg" alt=""></div> 
+            <div>  Student  </div>
+            <div><a href="Student/Login.jsp" class="but">Click now</a></div>
+        </div>
+       </div>
+       
+       <div class="sec"> 
+        <div class="sec-box">
+            <div ><img class="img2"src="boss.svg" alt=""></div>
+            <div>Hod </div>
+            <div><a href="Hod/HodLogin.jsp" class="but">Click now</a></div>
+        </div>
+        </div>
+        
+        <div class="sec">
+        <div class="sec-box">
+            <div ><img class="img3"src="arrows-down-to-people.svg" alt=""></div>
+            <div>Guard </div>
+            <div><a href="Guard/guardLogin.jsp" class="but">Click now</a></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
