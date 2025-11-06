@@ -69,6 +69,7 @@ display: flex;
 		<a href="hodPanel.jsp">Pending Requests</a>
 		<a href="accepted.jsp">Approved by Me</a>
 		<a href="finalapproved.jsp">Final Approved (Guard)</a>
+		<a href="email.jsp">Email send</a>
 		</div>
 		<div class="right">
 		<a href="guardRegister.jsp">Guard Registraction</a>
